@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block content %}
+<h1>{% trans "Detail of the order:" %} {{order.id}}</h1>
+<p>{% trans "Order Id:" %} {{ order.order_id }}</p>
+<p>{% trans "Order Purchase Date:" %} {{ order.order_purchase_date }}</p>
+<p>{% trans "Order Amount:" %} {{ order.order_amount }}</p>
+<p>{% trans "Order Items:" %} {{ order.order_items }}</p>
+<p>{% trans "Marketplace:" %} {{ order.marketplace }}</p>
+{% endblock %}

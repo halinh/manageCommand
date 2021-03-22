@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load crispy_forms_tags %}
+{% block content %}
+  <h1>{% trans "Search orders" %}</h1>
+  <div class="form-container">
+    <form method="get">
+        {{ filter.form|crispy }}
+        <button type="submit" class="btn btn-secondary">{% trans "Submit" %}</button>
+    </form>
+  </div>
+  <br/>
+  <table class="table table-striped table-bordered table-sm">
+    <tr>
+    <th>Id</th>
+    <th>{% trans "Order Id" %} </th>
+    <th>{% trans "Order Purchase Date" %}</th>
+    <th>{% trans "Order Amount" %}</th>
+    <th>{% trans "Order Items" %}</th>
+    <th>{% trans "Marketplace" %}</th>
+    <th></th>
+    <th></th>
+    </tr>
+    {% for order in orders %}
+    <tr>
+      <td>{{ order.id }}</td>
+      <td>{{ order.order_id }}</td>
+      <td>{{ order.order_purchase_date }}</td>
+      <td>{{ order.order_amount }}</td>
+      <td>{{ order.order_items }}</td>
+      <td>{{ order.marketplace }}</td>
+      <td><a href="{% url 'orders:order-update' order.pk %}"><i class="fas fa-pen"></i></a></td>
+      <td><a href="{% url 'orders:order-delete' order.pk %}"><i class="fas fa-trash"></i></a></td>
+    </tr>
+    {% endfor %}
+  </table>
+  {% include "paginate.html" %}
+{% endblock %}

@@ -1,0 +1,13 @@
+html, body {
+    height: 100%;
+    font-family: helvetica;
+}
+h1 {
+    font-size: 100px;
+    color: darkgray;
+    text-align: center;
+}
+.form-container{
+    width: 500px;
+    margin: auto;
+}

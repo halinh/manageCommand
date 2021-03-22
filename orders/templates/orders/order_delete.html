@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% block content %}
+<form action="{{ get_success_url }}" method="POST">
+{% csrf_token %}
+  <h4>{% trans "Do you want to delete the order" %} "{{ order.order_id }}" ?</h4>
+  <p>
+    <button type="submit" class="btn btn-secondary">{% trans "Yes" %}</button>
+    <a href="../">{% trans "Cancel" %}</a>
+  </p>
+</form>
+{% endblock %}

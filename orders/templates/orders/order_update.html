@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load i18n %}
+{% load crispy_forms_tags %}
+{% block content %}
+<h1>{% trans "Update an order" %}</h1>
+<form action="{{ get_success_url }}" method="POST">
+  <div class="form-container">
+    {% csrf_token %}
+    {{ form|crispy }}
+    <button type="submit" class="btn btn-secondary">Update</button>
+  </div>
+</form>
+{% endblock %}

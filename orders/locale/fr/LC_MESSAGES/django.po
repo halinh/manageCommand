@@ -1,0 +1,150 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-21 22:49+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: .\orders\filters.py:12 .\orders\models.py:7
+#: .\orders\templates\orders\order_form.html:16
+#: .\orders\templates\orders\order_list.html:9
+msgid "Order Id"
+msgstr "Commande Ident"
+
+#: .\orders\filters.py:17
+msgid "Order After"
+msgstr "Commande Après"
+
+#: .\orders\filters.py:23
+msgid "Order Before"
+msgstr "Commande Avant"
+
+#: .\orders\filters.py:29 .\orders\models.py:9
+#: .\orders\templates\orders\order_form.html:18
+#: .\orders\templates\orders\order_list.html:11
+msgid "Order Amount"
+msgstr "Montant"
+
+#: .\orders\filters.py:33 .\orders\models.py:10
+#: .\orders\templates\orders\order_form.html:19
+#: .\orders\templates\orders\order_list.html:12
+msgid "Order Items"
+msgstr "Items"
+
+#: .\orders\filters.py:37 .\orders\models.py:11
+#: .\orders\templates\orders\order_form.html:20
+#: .\orders\templates\orders\order_list.html:13
+msgid "Marketplace"
+msgstr "Marketplace"
+
+#: .\orders\forms.py:10 .\orders\models.py:8
+#: .\orders\templates\orders\order_form.html:17
+#: .\orders\templates\orders\order_list.html:10
+msgid "Order Purchase Date"
+msgstr "Date d'achat"
+
+#: .\orders\templates\navbar.html:6 .\orders\templates\orders\order_list.html:4
+msgid "List of orders"
+msgstr "Liste des ordres"
+
+#: .\orders\templates\navbar.html:9
+msgid "Create"
+msgstr "Créer"
+
+#: .\orders\templates\navbar.html:12
+msgid "Search"
+msgstr "Chercher"
+
+#: .\orders\templates\orders\order_create.html:5
+msgid "Create an order"
+msgstr "Créer une commande"
+
+#: .\orders\templates\orders\order_create.html:10
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: .\orders\templates\orders\order_delete.html:6
+msgid "Do you want to delete the order"
+msgstr "Voulez-vous supprimer la commande"
+
+#: .\orders\templates\orders\order_delete.html:8
+msgid "Yes"
+msgstr "Oui"
+
+#: .\orders\templates\orders\order_delete.html:9
+msgid "Cancel"
+msgstr "Annuler"
+
+#: .\orders\templates\orders\order_detail.html:4
+msgid "Detail of the order:"
+msgstr "Détail de la commande:"
+
+#: .\orders\templates\orders\order_detail.html:5
+msgid "Order Id:"
+msgstr "Commande Ident:"
+
+#: .\orders\templates\orders\order_detail.html:6
+msgid "Order Purchase Date:"
+msgstr "Date d'achat:"
+
+#: .\orders\templates\orders\order_detail.html:7
+msgid "Order Amount:"
+msgstr "Montant:"
+
+#: .\orders\templates\orders\order_detail.html:8
+msgid "Order Items:"
+msgstr "Items:"
+
+#: .\orders\templates\orders\order_detail.html:9
+msgid "Marketplace:"
+msgstr "Marketplace:"
+
+#: .\orders\templates\orders\order_form.html:5
+msgid "Search orders"
+msgstr "Chercher des commandes"
+
+#: .\orders\templates\orders\order_form.html:9
+msgid "Submit"
+msgstr "Soumettre"
+
+#: .\orders\templates\orders\order_update.html:5
+msgid "Update an order"
+msgstr "Mettre à jour une commande"
+
+#: .\orders\templates\paginate.html:5
+msgid "First"
+msgstr "Premier"
+
+#: .\orders\templates\paginate.html:7
+msgid "Previous"
+msgstr "Précédent"
+
+#: .\orders\templates\paginate.html:13
+msgid "Next"
+msgstr "Suivant"
+
+#: .\orders\templates\paginate.html:15
+msgid "Last"
+msgstr "Dernier"
+
+#~ msgid "Order purchase date"
+#~ msgstr "Date d'achat"
+
+#~ msgid "Order amount"
+#~ msgstr "Montant"
+
+#~ msgid "Order items"
+#~ msgstr "Items"
